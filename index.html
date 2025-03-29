@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viki Kumar - Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">VK</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Viki Kumar">Viki Kumar</h1>
+                <p class="subtitle">Creative Developer & Designer</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="./image/profile.png" alt="Viki">
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate and driven Full-Stack Web Developer pursuing a B.Tech in Computer Science and
+                        Engineering at Lovely Professional University, Phagwara. With a strong foundation in both
+                        frontend and backend development, I specialize in building scalable, efficient, and
+                        user-friendly web applications using modern technologies.
+                    </p>
+                    <p>Proficient in frameworks like React and Node.js, and experienced with databases such as MongoDB
+                        and MySQL, I thrive on developing robust solutions that optimize performance and
+                        maintainability. My expertise in problem-solving, data structures, and algorithms further
+                        enhances my ability to write clean, efficient, and well-structured code.
+                    </p>
+                    <p>Eager to continuously learn and explore emerging technologies, I am actively seeking job and
+                        internship opportunities where I can contribute my skills, take on challenging projects, and
+                        grow as a developer.</p>
+                    <a href="General CV.pdf" class="download-cv">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card" data-category="web">
+                    <img src="./image/jewelry.jpg" alt="E-commerce Platform">
+                    <div class="project-info">
+                        <h3>Jewelry Shopping Website By using React</h3>
+                        <p>Enhanced a Jewelry Website for showcasing and selling elegant jewelry with a seamless
+                            shopping experience.</p>
+                        <a href="https://github.com/vikikumar05/Jewellery-Website-by-react" class="project-link">View
+                            Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <img src="./image/notes sharing.png" alt="Task Management App">
+                    <div class="project-info">
+                        <h3 style="color: black;">Online notes sharing system by using PHP</h3>
+                        <p>Developed an Online Notes Sharing System to enable seamless uploading, sharing, and accessing
+                            of study material.</p>
+                        <a href="https://github.com/vikikumar05/Online-Notes-Sharing-System" class="project-link">View
+                            Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <img src="./image/restu.jpeg" alt="Brand Identity Design">
+                    <div class="project-info">
+                        <h3 style="color: black">Resturant Website by NodeJS</h3>
+                        <p>Designed a dynamic restaurant website with an intuitive UI, showcasing menu,
+                            reservations, and customer engagement features</p>
+                        <a href="https://github.com/vikikumar05/Restaurant-website" class="project-link">View
+                            Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <img src="./image/healthcare.jpg" alt="Brand Identity Design">
+                    <div class="project-info">
+                        <h3>HealthCare website</h3>
+                        <p>By using HTML, CSS, JavaScript</p>
+                        <p>Developed a Healthcare Website with features like doctor listings, appointment booking, and
+                            medical service details.</p>
+                        <a href="https://github.com/vikikumar05/Health-Care-website" class="project-link">View
+                            Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <img src="./image/calc.png" alt="Portfolio Website">
+                    <div class="project-info">
+                        <h3>Income Tax Calculator</h3>
+                        <p>By using C++</p>
+                        <p>Built an Income Tax Calculator in C++ to compute tax liabilities based on income slabs and
+                            deductions.</p>
+                        <a href="https://github.com/vikikumar05/Income-tax-calculator" class="project-link">View
+                            Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <img src="./image/lib.jpg" alt="Portfolio Website">
+                    <div class="project-info">
+                        <h3 style="color: black;">Library Management System</h3>
+                        <p>By using C++</p>
+                        <p>To efficiently handle book records, user management, and borrowing/return processes.</p>
+                        <a href="https://github.com/vikikumar05/Library-Management-Systemm" class="project-link">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Front-end</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item" data-skill="HTML5">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item" data-skill="CSS3">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item" data-skill="JavaScript">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item" data-skill="React JS">
+                            <span class="skill-name">React JS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Back-end</h3>
+                    <ul class="skill-list">
+
+                        <li class="skill-item" data-skill="Node.js">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item" data-skill="MySQL">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item" data-skill="MongoDB">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item" data-skill="XAMPP">
+                            <span class="skill-name">XAMPP</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="skill-list">
+                <li class="skill-item" data-skill="C-Programming">
+                    <span class="skill-name">C-Programming</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </li>
+                <li class="skill-item" data-skill="C++">
+                    <span class="skill-name">C++</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%;"></div>
+                    </div>
+                </li>
+                <li class="skill-item" data-skill="Java">
+                    <span class="skill-name">Java</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;"></div>
+                    </div>
+                </li>
+                <li class="skill-item" data-skill="PHP">
+                    <span class="skill-name">PHP</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </li>
+                <li class="skill-item" data-skill="Data Structure & Algorithms">
+                    <span class="skill-name">Data Structure & Algorithms</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Specialties Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title reveal-text">Specialties</h2>
+                <div class="services-grid">
+                    <div class="service-card reveal-text">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Custom websites and web applications built with modern technologies.</p>
+                    </div>
+                    <div class="service-card reveal-text">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>User-centered design solutions for digital products.</p>
+                    </div>
+                    <div class="service-card reveal-text">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                        <p>Scalable and efficient server-side solutions and APIs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-phone"></i>+91 9546931883</p>
+                    <p><i class="fas fa-envelope"></i>vikikumar0505@gmail.com</p>
+                    <div class="social-links">
+                        <a href="https://github.com/vikikumar05" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/viki-kumar/" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/qr/2ZYLAV27V67TE1" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <form id="contact-form" action="send_email.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- <script src="script1.js"></script> -->
+    <script>
+        
+    </script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const menuToggle = document.getElementById("menu-toggle")
+            const navLinks = document.querySelector("nav .nav-links")
+            const menuItems = navLinks.querySelectorAll("a")
+
+            // Toggle menu when clicking the menu icon
+            menuToggle.addEventListener("click", (event) => {
+                event.stopPropagation()
+                navLinks.classList.toggle("active")
+            })
+
+            // Close menu when clicking outside
+            document.addEventListener("click", (event) => {
+                if (navLinks.classList.contains("active") && !navLinks.contains(event.target) && event.target !== menuToggle) {
+                    navLinks.classList.remove("active")
+                }
+            })
+
+            // Prevent clicks inside the menu from closing it
+            navLinks.addEventListener("click", (event) => {
+                event.stopPropagation()
+            })
+
+            // Handle menu item clicks
+            menuItems.forEach((item) => {
+                item.addEventListener("click", function (event) {
+                    // Remove 'active' class from all menu items
+                    menuItems.forEach((menuItem) => {
+                        menuItem.classList.remove("active")
+                    })
+
+                    // Add 'active' class to clicked menu item
+                    this.classList.add("active")
+
+                    // Close the mobile menu if it's open
+                    navLinks.classList.remove("active")
+                })
+            })
+
+            // Set the initial active state based on the current URL
+            setActiveMenuItem()
+        })
+
+        // Function to set the active menu item based on the current URL
+        function setActiveMenuItem() {
+            const currentPath = window.location.pathname
+            const menuItems = document.querySelectorAll("nav .nav-links a")
+
+            menuItems.forEach((item) => {
+                if (item.getAttribute("href") === currentPath) {
+                    item.classList.add("active")
+                } else {
+                    item.classList.remove("active")
+                }
+            })
+        }
+    </script>
+
+</body>
+
+</html>
